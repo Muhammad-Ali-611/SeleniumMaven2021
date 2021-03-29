@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+
+<suite name = "Amazon test Script" parallel ="false">
+    <parameter name="url" value = "https://www.amazon.com/"></parameter>
+
+<test name = "Amazon.com">
+
+<classes>
+    <class name="landinpage.PageTitle"></class>
+    <class name="landingpage.Search"></class>
+
+</classes>
+</suite>
